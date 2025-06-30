@@ -71,7 +71,7 @@ const InteractiveHero: React.FC = () => {
   // Redirect authenticated users to hackathons
   useEffect(() => {
     if (isAuthenticated) {
-      navigate('/hackathons');
+      navigate('/events');
     }
   }, [isAuthenticated, navigate]);
 
